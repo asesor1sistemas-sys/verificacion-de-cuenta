@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUISTE HACKEADO</title>
+    <style>
+        /* Estilos generales del cuerpo */
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Fondo negro */
+            color: #ff0000; /* Color de texto rojo */
+            font-family: Arial, Helvetica, sans-serif; /* Fuente simple y en bloque */
+            display: flex;
+            flex-direction: column; /* Cambiado a columna para apilar el contenido y el contador */
+            justify-content: center; /* Centrado vertical del contenido principal */
+            align-items: center; /* Centrado horizontal */
+            text-align: center;
+        }
+
+        /* Contenedor principal del mensaje "HACKEADO" */
+        .hacked-container {
+            flex-grow: 1; /* Permite que este contenedor ocupe el espacio extra y empuje el contador hacia abajo */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Estilo para el ícono de calavera */
+        .icon {
+            font-size: 150px; /* Tamaño grande para el ícono */
+            line-height: 1; /* Ajuste de altura de línea */
+        }
+
+        /* Estilo para el texto principal */
+        .text {
+            font-size: 80px; /* Tamaño de fuente grande */
+            font-weight: bold; /* Texto en negrita */
+            text-transform: uppercase; /* Todo en mayúsculas */
+            margin-top: 20px; /* Espacio entre el ícono y el texto */
+            line-height: 1.1; /* Espacio entre las líneas "FUISTE" y "HACKEADO" */
+        }
+
+        /* Estilo para el contador de visitas (opcional: para espaciarlo del centro) */
+        .counter-container {
+            padding: 20px;
+            /* Asegúrate de que las imágenes del contador sean visibles si el fondo es negro */
+            /* El código del contador es una imagen, por lo que su color dependerá de la imagen fuente */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hacked-container">
+        <div class="icon">☠</div>
+        
+        <div class="text">
+            FUISTE<br>
+            HACKEADO
+        </div>
+    </div>
+
+    <div class="counter-container">
+        <a href="https://www.hitwebcounter.com/" target="_blank">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=21453833&style=0041&nbdigits=3&type=page&initCount=0" title="Free Tools" Alt="Free Tools" border="0" /></a>
+    </div>
+
+</body>
+</html>
